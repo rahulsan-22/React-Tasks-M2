@@ -1,16 +1,26 @@
-# React + Vite
+🚀 ReactJS Daily Tasks & Practice Repository
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the ReactJS Daily Tasks Repository!
+This repository contains daily hands-on tasks, practice examples, and mini-projects designed to help students strengthen their ReactJS skills step by step.
 
-Currently, two official plugins are available:
+📚 About This Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Each folder in this repository represents a specific topic or concept from ReactJS — from basics to advanced.
+You’ll find:
+🧩 Concept-wise tasks
+⚙️ Practice exercises
+🎯 Mini-projects for real-world experience
 
-## React Compiler
+🗓️ How to Use
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Step1:Clone this repository using git clone https://github.com/<your-username>/<repo-name>.git
+Step2:Open the desired folder for the topic or day’s task.
+Step3:Run the project locally:
+npm install  
+npm run dev
+Explore the code, understand the logic, and practice implementing the same on your own.
 
-## Expanding the ESLint configuration
+👨‍🏫 Instructor
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Rahul S — Web Technology & ReactJS Trainer at Qspiders, Hyderabad
+“Code daily, build confidence, and React like a pro!” ⚡
