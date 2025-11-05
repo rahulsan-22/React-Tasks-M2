@@ -77,13 +77,23 @@
 
 //!04/11/2025
 //!Props Destructuring
-import Trainer from './PropsDestructuring/Trainer'
+// import Trainer from './PropsDestructuring/Trainer'
+
+// const App = () => {
+//   return <>
+//     <Trainer image="pavan.jpg" name="Pavan" age={16} designation="Core Java Trainer"/>
+//     <Trainer image="monty.jpg" name="Monty" age={27} designation="PythonTrainer"/>
+//   </>
+// }
+
+// export default App
+
+//!05/11/2025
+//!Props Drilling
+import Management from './PropsDrilling/Management'
 
 const App = () => {
-  return <>
-    <Trainer image="pavan.jpg" name="Pavan" age={16} designation="Core Java Trainer"/>
-    <Trainer image="monty.jpg" name="Monty" age={27} designation="PythonTrainer"/>
-  </>
+  return <Management/>
 }
 
 export default App
