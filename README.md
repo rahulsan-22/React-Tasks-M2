@@ -13,7 +13,8 @@ You’ll find:
 
 🗓️ How to Use
 
-Step1:Clone this repository using git clone https://github.com/<your-username>/<repo-name>.git
+Step1:Clone this repository using git clone 
+https://github.com/<your-username>/<repo-name>.git
 Step2:Open the desired folder for the topic or day’s task.
 Step3:Run the project locally:
 npm install  
