@@ -90,10 +90,26 @@
 
 //!05/11/2025
 //!Props Drilling
-import Management from './PropsDrilling/Management'
+// import Management from './PropsDrilling/Management'
+
+// const App = () => {
+//   return <Management/>
+// }
+
+// export default App
+
+//!06/11/2025
+//!Conditional Rendering
+import Greeting from './ConditionalRendering/Greeting'
+import UserStatus from './ConditionalRendering/UserStatus'
+import Weather from './ConditionalRendering/Weather'
 
 const App = () => {
-  return <Management/>
+  return <>
+    <Weather temperature={25}/>
+    <UserStatus isAdmin={false}/>
+    <Greeting timeOfDay="evening"/>
+  </>
 }
 
 export default App
