@@ -100,16 +100,26 @@
 
 //!06/11/2025
 //!Conditional Rendering
-import Greeting from './ConditionalRendering/Greeting'
-import UserStatus from './ConditionalRendering/UserStatus'
-import Weather from './ConditionalRendering/Weather'
+// import Greeting from './ConditionalRendering/Greeting'
+// import UserStatus from './ConditionalRendering/UserStatus'
+// import Weather from './ConditionalRendering/Weather'
+
+// const App = () => {
+//   return <>
+//     <Weather temperature={25}/>
+//     <UserStatus isAdmin={false}/>
+//     <Greeting timeOfDay="evening"/>
+//   </>
+// }
+
+// export default App
+
+//!11/11/2025
+//!useState()
+import State from './useState/State'
 
 const App = () => {
-  return <>
-    <Weather temperature={25}/>
-    <UserStatus isAdmin={false}/>
-    <Greeting timeOfDay="evening"/>
-  </>
+  return <State/>
 }
 
 export default App
