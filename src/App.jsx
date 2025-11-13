@@ -116,10 +116,28 @@
 
 //!11/11/2025
 //!useState()
-import State from './useState/State'
+// import State from './useState/State'
+
+// const App = () => {
+//   return <State/>
+// }
+
+// export default App
+
+//!12/11/2025
+//!useContext()
+import { useState } from 'react'
+import BranchHead from './useContext/BranchHead'
+import { SundayContext } from './useContext/Management'
 
 const App = () => {
-  return <State/>
+  let [sunday, setSunday] = useState("Management:This sunday classes will be there")
+  return <>
+    <SundayContext.Provider value={sunday}>
+      <BranchHead/>
+    </SundayContext.Provider>
+    <button onClick={()=>setSunday("Students:These people dont have any other work but we have other important work so lets skip the classes")}>Click to know the decision of students</button>
+  </>
 }
 
 export default App
