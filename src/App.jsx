@@ -126,18 +126,38 @@
 
 //!12/11/2025
 //!useContext()
-import { useState } from 'react'
-import BranchHead from './useContext/BranchHead'
-import { SundayContext } from './useContext/Management'
+// import { useState } from 'react'
+// import BranchHead from './useContext/BranchHead'
+// import { SundayContext } from './useContext/Management'
 
+// const App = () => {
+//   let [sunday, setSunday] = useState("Management:This sunday classes will be there")
+//   return <>
+//     <SundayContext.Provider value={sunday}>
+//       <BranchHead/>
+//     </SundayContext.Provider>
+//     <button onClick={()=>setSunday("Students:These people dont have any other work but we have other important work so lets skip the classes")}>Click to know the decision of students</button>
+//   </>
+// }
+
+// export default App
+
+//!14/11/2025
+//!Stylings
+import Title from './Stylings/Title'
+import Card from './Stylings/Card'
+import "./Global.css"
 const App = () => {
-  let [sunday, setSunday] = useState("Management:This sunday classes will be there")
-  return <>
-    <SundayContext.Provider value={sunday}>
-      <BranchHead/>
-    </SundayContext.Provider>
-    <button onClick={()=>setSunday("Students:These people dont have any other work but we have other important work so lets skip the classes")}>Click to know the decision of students</button>
-  </>
+  return (
+    <div>
+      <Title />
+      <div className='card_container'>
+        <Card img="rahul.jpg" name="Rahul" designation="Web Trainer"/>
+        <Card img="pavan.jpg" name="Pavan" designation="Core Java Trainer"/>
+        <Card img="monty.jpg" name="Monty" designation="Python Trainer"/>
+      </div>
+    </div>
+  )
 }
 
 export default App
