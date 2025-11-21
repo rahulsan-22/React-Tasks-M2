@@ -144,20 +144,61 @@
 
 //!14/11/2025
 //!Stylings
-import Title from './Stylings/Title'
-import Card from './Stylings/Card'
-import "./Global.css"
+// import Title from './Stylings/Title'
+// import Card from './Stylings/Card'
+// import "./Global.css"
+// const App = () => {
+//   return (
+//     <div>
+//       <Title />
+//       <div className='card_container'>
+//         <Card img="rahul.jpg" name="Rahul" designation="Web Trainer"/>
+//         <Card img="pavan.jpg" name="Pavan" designation="Core Java Trainer"/>
+//         <Card img="monty.jpg" name="Monty" designation="Python Trainer"/>
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//!15/11/2025
+//!Combined Task
+// import { useState } from 'react'
+// import { ThemeContext } from './CombinedTask/Context'
+// import StudentCard from './CombinedTask/StudentCard'
+
+// const App = () => {
+//   let [theme, setTheme] = useState("light")
+//   let handleTheme = () => {
+//     setTheme(theme == "light" ? "dark" : "light")
+//   }
+//   const students = [
+//     { id: 1, name: "Rahul", branch: "MECH", score: 85 },
+//     { id: 2, name: "Pavan", branch: "CIVIL", score: 72 },
+//     { id: 3, name: "Monty", branch: "CIVIL", score: 90 }
+//   ];
+//   return <>
+//     <h1>Student Dashboard</h1>
+//     <button onClick={handleTheme}>Switch Theme ({theme})</button>
+//     <ThemeContext.Provider value={theme}>
+//       {students.map((ele) => {
+//         return <StudentCard key={ele.id} name={ele.name} branch={ele.branch} score={ele.score}>
+//           <p>All the best! {ele.name}</p>
+//         </StudentCard>
+//       })}
+//     </ThemeContext.Provider>
+//   </>
+// }
+
+// export default App
+
+//!18/11/2025
+//!Tailwind CSS
+import HotWheels from './TailwindCSS/HotWheels'
+
 const App = () => {
-  return (
-    <div>
-      <Title />
-      <div className='card_container'>
-        <Card img="rahul.jpg" name="Rahul" designation="Web Trainer"/>
-        <Card img="pavan.jpg" name="Pavan" designation="Core Java Trainer"/>
-        <Card img="monty.jpg" name="Monty" designation="Python Trainer"/>
-      </div>
-    </div>
-  )
+  return <HotWheels/>
 }
 
 export default App
